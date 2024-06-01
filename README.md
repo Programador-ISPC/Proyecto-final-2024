@@ -42,3 +42,36 @@ Main:
 - IDE: **Visual Studio Code**
 - IDE: **MySQL Workbench**
 - Bases de Datos: **MySQL** (SQL)
+
+
+
+
+
+
+
+###  Sprint 1  (A gestionar) 01/06
+
+Tareas:
+
+Sprint 1
+Crear modulo (nombre para base de datos).py 
+- Clase:  
+		Gestionar 	creacion de base de datos
+				conexion
+				desconexion
+
+
+
+- Crear consultas en menu:
+	clase rodeo: Crear consultas para crear/eliminar rodeos
+
+	clase caravana:  Registrar peso y caravanas
+
+
+Sprint 2:
+
+Refinar busquedas:
+
+
+- Clase para refinar busquedas y traer datos.
+
