@@ -47,31 +47,8 @@ Main:
 
 
 
+## LOGS
 
-
-###  Sprint 1  (A gestionar) 01/06
-
-Tareas:
-
-Sprint 1
-Crear modulo (nombre para base de datos).py 
-- Clase:  
-		Gestionar 	creacion de base de datos
-				conexion
-				desconexion
-
-
-
-- Crear consultas en menu:
-	clase rodeo: Crear consultas para crear/eliminar rodeos
-
-	clase caravana:  Registrar peso y caravanas
-
-
-Sprint 2:
-
-Refinar busquedas:
-
-
-- Clase para refinar busquedas y traer datos.
-
+- 01/06 Se crea Proyecto y se agregan Issues sobre las cuales trabajar
+- 01/06 Se crea Readme inicial y se agrega repositorio a trabajar
+- 01/06 Reunion inicial. Organizacion de proyecto y metas a alcanzar
