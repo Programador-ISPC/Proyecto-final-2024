@@ -1,6 +1,6 @@
 import os
-from modules.rodeos import Rodeo
 from modules.animales import Animales
+from modules.rodeos import Rodeo
 def menu_principal():
     '''Muestra el menú principal y retorna la opción seleccionada.'''
     print("\nMenú Principal:")
