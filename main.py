@@ -1,12 +1,14 @@
 import os
 from modules.animales import Animales
 from modules.rodeos import Rodeo
+from modules.coneccionBD import GestionBD
 def menu_principal():
     '''Muestra el menú principal y retorna la opción seleccionada.'''
     print("\nMenú Principal:")
     print("1. Gestión de Rodeos")
     print("2. Gestión de Animales")
-    print("3. Salir")
+    print("3. Crear Base de Datos")
+    print("4. Salir")
 
     opcion = int(input("Ingrese una opción: "))
     os.system("clear")
@@ -87,6 +89,11 @@ while True:
             os.system("clear")
             continue
     elif opcion == 3:
+        GestionBD().setup_database()
+        input("\nPresione ENTER para continuar")
+        os.system("clear")
+        continue
+    elif opcion == 4:
         break
     else:
         print("Opción inválida")

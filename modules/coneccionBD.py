@@ -11,10 +11,10 @@ class GestionBD:
         """Establece la conexión a la base de datos"""
         try:
             self.connection = mysql.connector.connect(
-                host='localhost',  # Cambiar si es necesario
-                database='nombre_base_datos',  # Cambiar por el nombre de la base de datos
-                user='tu_usuario',  # Cambiar por el usuario de la base de datos
-                password='tu_contraseña'  # Cambiar por la contraseña de la base de datos
+                host='localhost',  
+                database='nombre_base_datos',  
+                user='tu_usuario',  
+                password='tu_contraseña'  
             )
             if self.connection.is_connected():
                 print("Conexión exitosa a la base de datos")
@@ -57,8 +57,8 @@ class GestionBD:
                 if statement.strip():
                     cursor.execute(statement)
             self.connection.commit()
-            print("Database schema created successfully.")
+            print("Base de datos creada.")
         except mysql.connector.Error as err:
-            print(f"Error creating database schema: {err}")
+            print(f"Error al crear la base de datos: {err}")
         finally:
             cursor.close()
