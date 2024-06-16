@@ -1,6 +1,6 @@
 import mysql.connector
 from mysql.connector import Error
-from dbsetup_script import dbsetup_script
+from database import Database
 
 class GestionBD:
     def __init__(self):
